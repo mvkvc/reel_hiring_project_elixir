@@ -1,0 +1,3 @@
+%{
+  "poison": {:hex, :poison, "2.1.0", "f583218ced822675e484648fa26c933d621373f01c6c76bd00005d7bd4b82e27", [:mix], [], "hexpm", "002caaf939b97c84533ef0f621d3ed414ed703fcd03c91ec0dd62043df102c63"},
+}
