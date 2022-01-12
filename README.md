@@ -2,15 +2,15 @@
 
 ## Purpose
 
-If you choose to apply for an Elixir Software Engineer job at Reel, you will be asked to complete this project as part of the interview process. Your solution to the project will be used as a starting point in our subsequent technical interview. The project is intended to be a small representation of the kind of work we do at Reel.
+If you choose to apply for an Elixir Software Engineer job at Reel, we will ask you to complete this project as part of the interview process. We will use your solution to the project as a starting point in our subsequent technical interview. The project is intended to be a small representation of the kind of work we do at Reel.
 
 ## Problem description
 
-Allow us to set the scene: We receive raw electricity consumption data in a json format from a third party source. To map this data to our internal consumption data format, we need a parser. Your task is to write this parser, as specified in the next section.
+Allow us to set the scene: We receive electricity consumption data in a json format from a third party source. To map this data to our internal consumption data format, we need a parser. Your task is to write this parser, as specified in the next section.
 
 We have set up this project and written a few helper functions so you can focus on developing the parser itself.
 
-You can spend as much time as you want, but we expect the project to take 2-3 hours to complete. You are always more than welcome to reach out to us if something is missing or looks off.
+You can spend as much time as you want, but we expect the project to take 2-3 hours to complete. You are always more than welcome to reach out to us if something needs clarification.
 
 ## Your task
 
@@ -18,7 +18,7 @@ You can spend as much time as you want, but we expect the project to take 2-3 ho
 
 The function `parse/1` is defined in the `Parser` module at 'lib/parser.ex'. A sample of json consumption data is read and passed to `parse/1` by the existing helper functions. The data contains hourly consumption readings from a single metering point for a 48 hour period. You can inspect the sample data at 'data/consumption_data.json'.
 
-We want you to write the code that will parse the sample data provided to this function. The `parse/1` function is just a starting point - you can add functions and/or modules as you wish.
+We want you to write the code to parse the sample data provided to this function. The `parse/1` function is just a starting point - you can add functions and/or modules as you wish.
 
 The output of the `parse/1` function needs to contain the 48 consumption readings from the sample data in the following format:
 
@@ -74,8 +74,8 @@ Write a short (1200 characters max) explanation of how your solution works and w
 4. Once you're done and have committed everything, create a patch of your changes
    - `git diff main > <your_name>.patch`
 5. Send the following to christian@reel.energy
-   a. The patch file
-   b. The description of your solution in pdf format
+   1. The patch file
+   2. The description of your solution in pdf format
 
 ## How we evaluate
 
