@@ -2,11 +2,11 @@
 
 ## Purpose
 
-If you choose to apply for an Elixir Software Engineer job at Reel, we will ask you to complete this project as part of the interview process. We will use your solution to the project as a starting point in our subsequent technical interview. The project is intended to be a small representation of the kind of work we do at Reel.
+If you choose to apply for an Elixir Software Engineer job at Reel, we will ask you to complete this project as part of the interview process. We will use your solution to the project as a starting point for our subsequent technical interview. The project is intended to be a small representation of the kind of work we do at Reel.
 
 ## Problem description
 
-Allow us to set the scene: We receive electricity consumption data in a json format from a third party source. To map this data to our internal consumption data format, we need a parser. Your task is to write this parser, as specified in the next section.
+We receive electricity consumption data in a json format from a third party source. To map this data to our internal consumption data format, we need a parser. Your task is to write this parser, as specified in the next section.
 
 We have set up this project and written a few helper functions so you can focus on developing the parser itself.
 
@@ -14,7 +14,7 @@ You can spend as much time as you want, but we expect the project to take 2-3 ho
 
 ## Your task
 
-##### 1. Write the consumption data parser
+#### 1. Write the consumption data parser
 
 The function `parse/1` is defined in the `Parser` module at 'lib/parser.ex'. A sample of json consumption data is read and passed to `parse/1` by the existing helper functions. The data contains hourly consumption readings from a single metering point for a 48 hour period. You can inspect the sample data at 'data/consumption_data.json'.
 
@@ -46,11 +46,11 @@ The output of the `parse/1` function needs to contain the 48 consumption reading
 ]
 ```
 
-##### 2. Write tests to verify your solution
+#### 2. Write tests to verify your solution
 
 Write tests in 'test/parser_test.exs'. Write as many or as few tests as you see fit to make you feel comfortable in the correctness of your solution. However, we only expect you to test the parser itself.
 
-##### 3. Explain your solution
+#### 3. Explain your solution
 
 Write a short (1200 characters max) explanation of how your solution works and why you chose that particular solution.
 
