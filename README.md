@@ -2,15 +2,15 @@
 
 ## Purpose
 
-If you choose to apply for an Elixir Software Engineer job at Reel, we will ask you to complete this project as part of the interview process. We will use your solution to the project as a starting point for our subsequent technical interview. The project is intended to be a small representation of the kind of work we do at Reel.
+As the next step in the interview process for the Elixir Software Engineer job at Reel, we will ask you to complete this project. We will use your solution to the project to get a better understanding of your technical abilities and how you approach a technical challenge. Your solution will also be the starting point for our subsequent technical interview. The project is intended to be a small representation of the kind of work we do at Reel.
 
 ## Problem description
 
-We receive electricity consumption data in a json format from a third party source. To map this data to our internal consumption data format, we need a parser. Your task is to write this parser, as specified in the next section.
+We receive electricity consumption data in a json format from a third party source. This data is used on our platform to analyse consumption patterns and to help companies get a better understanding of the emissions related to their consumption. To map this data to our internal consumption data format, we need a parser. Your task is to write this parser, as specified in the next section.
 
 We have set up this project and written a few helper functions so you can focus on developing the parser itself.
 
-You can spend as much time as you want, but we expect the project to take 2-3 hours to complete. You are always more than welcome to reach out to us if something needs clarification.
+We expect the project to take 2-3 hours to complete. You are always more than welcome to reach out to us if something needs clarification.
 
 ## Your task
 
@@ -82,5 +82,5 @@ Write a short (1200 characters max) explanation of how your solution works and w
 We focus on three main points in our evaluation:
 
 1. The output of the `parse/1` function is correct. That is, the timestamps, quantity, and metering_point_id of each consumption reading matches the corresponding reading in the input data. Further, the format of the output is as described in the previous section.
-2. How you solved the task
-3. Your reasoning about choosing this solution
+2. How you solved the task. There are many ways to approach a task like this.
+3. Your reasoning about choosing this solution.

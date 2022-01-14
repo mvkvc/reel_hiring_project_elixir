@@ -20,7 +20,7 @@ defmodule Parser do
 
   @doc """
   Reads and decodes raw consumption data from json file located at the
-  path specified in @consumption_data_path.any().
+  path specified in @consumption_data_path.
 
   -- You do not need to modify this function --
   """
