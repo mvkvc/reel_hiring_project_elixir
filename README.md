@@ -25,23 +25,23 @@ The output of the `parse/1` function needs to contain the 48 consumption reading
 ```
 [
   %{
-    "quantity": 0.1,
-    "metering_point_id": "927613927390263674",
-    "interval_start": "2021-12-31T23:00:00Z",
-    "interval_end": "2022-01-01T00:00:00Z"
+    quantity: 0.1,
+    metering_point_id: "927613927390263674",
+    interval_start: "2021-12-31T23:00:00Z",
+    interval_end: "2022-01-01T00:00:00Z"
   },
   %{
-    "quantity": 0.08,
-    "metering_point_id": "927613927390263674",
-    "interval_start": "2022-01-01T00:00:00Z",
-    "interval_end": "2022-01-01T01:00:00Z"
+    quantity: 0.08,
+    metering_point_id: "927613927390263674",
+    interval_start: "2022-01-01T00:00:00Z",
+    interval_end: "2022-01-01T01:00:00Z"
   }
   ...
    %{
-    "quantity": 0.06,
-    "metering_point_id": "927613927390263674",
-    "interval_start": "2022-01-02T22:00:00Z",
-    "interval_end": "2022-01-02T23:00:00Z"
+    quantity: 0.06,
+    metering_point_id: "927613927390263674",
+    interval_start: "2022-01-02T22:00:00Z",
+    interval_end: "2022-01-02T23:00:00Z"
   }
 ]
 ```
