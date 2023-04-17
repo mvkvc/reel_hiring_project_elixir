@@ -2,7 +2,7 @@
 
 ## Purpose
 
-As the next step in the interview process for the Elixir Software Engineer job at Reel, we will ask you to complete this project. We will use your solution to the project to get a better understanding of your technical abilities and how you approach a technical challenge. Your solution will also be the starting point for our subsequent technical interview. The project is intended to be a small representation of the kind of work we do at Reel.
+As the next step in the interview process for the Senior Software Engineer job at Reel, we will ask you to complete this project. We will use your solution to the project to get a better understanding of your technical abilities and how you approach a technical challenge. Your solution will also be the starting point for our subsequent technical interview. The project is intended to be a small representation of the kind of work we do at Reel.
 
 ## Problem description
 
